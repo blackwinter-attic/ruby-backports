@@ -2,7 +2,7 @@ require 'digest'
 
 class Digest::Base
 
-  if RUBY_RELEASE_DATE < '2006-10-25'
+  unless method_defined?(:file)
     unless method_defined?(:_backports_file)
       alias_method :_backports_original_file, :file if method_defined?(:file)
 

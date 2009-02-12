@@ -2,7 +2,7 @@ require 'tempfile'
 
 class Tempfile
 
-  if RUBY_RELEASE_DATE < '2007-10-05'
+  unless Tempfile.new(['foo?', '!bar']).path =~ /!bar\z/
     unless method_defined?(:_backports_original_make_tmpname)
       alias_method :_backports_original_make_tmpname, :make_tmpname
 

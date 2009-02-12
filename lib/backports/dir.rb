@@ -2,7 +2,7 @@ class Dir
 
   class << self
 
-  if RUBY_RELEASE_DATE < '2007-02-15'
+  if Dir.method(:[]).arity == 1
     unless method_defined?(:_backports_original_brackets)
       alias_method :_backports_original_brackets, :[]
 
