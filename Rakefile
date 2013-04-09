@@ -5,11 +5,13 @@ begin
 
   Hen.lay! {{
     :gem => {
-      :name    => %q{ruby-backports},
-      :version => Backports::VERSION,
-      :summary => %q{Backports of newer Ruby features to older versions.},
-      :author  => %q{Jens Wille},
-      :email   => %q{jens.wille@gmail.com}
+      :name         => %q{ruby-backports},
+      :version      => Backports::VERSION,
+      :summary      => %q{Backports of newer Ruby features to older versions.},
+      :author       => %q{Jens Wille},
+      :email        => %q{jens.wille@gmail.com},
+      :homepage     => :blackwinter,
+      :dependencies => %w[]
     }
   }}
 rescue LoadError => err
