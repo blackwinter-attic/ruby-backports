@@ -19,19 +19,19 @@ Get all backports suitable for you:
 == LINKS
 
 <b></b>
-Documentation::     http://prometheus.rubyforge.org/ruby-backports
-Source code::       http://github.com/blackwinter/ruby-backports
-RubyForge project:: http://rubyforge.org/projects/prometheus
+Documentation:: http://blackwinter.github.com/ruby-backports
+Source code::   http://github.com/blackwinter/ruby-backports
+RubyGem::       http://rubygems.org/gems/ruby-backports
 
 
 == AUTHORS
 
-* Jens Wille <mailto:jens.wille@uni-koeln.de>
+* Jens Wille <mailto:jens.wille@gmail.com>
 
 
 == LICENSE AND COPYRIGHT
 
-Copyright (C) 2008-2011 Jens Wille
+Copyright (C) 2008-2013 Jens Wille
 
 ruby-backports is free software: you can redistribute it and/or modify it
 under the terms of the GNU Affero General Public License as published by

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jens Wille"]
   s.date = %q{2011-04-29}
   s.description = %q{Backports of newer Ruby features to older versions.}
-  s.email = %q{jens.wille@uni-koeln.de}
+  s.email = %q{jens.wille@gmail.com}
   s.extra_rdoc_files = ["README", "COPYING", "ChangeLog"]
   s.files = ["lib/backports/digest.rb", "lib/backports/tempfile.rb", "lib/backports/dir.rb", "lib/backports/version.rb", "lib/backports.rb", "README", "ChangeLog", "Rakefile", "COPYING"]
   s.homepage = %q{http://prometheus.rubyforge.org/ruby-backports}
